@@ -172,7 +172,7 @@ pip install --upgrade tensorflow-gpu
 10. Test tf install   
 
 ``` bash
-tf.enable_eager_execution(); print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
+python -c "import tensorflow as tf; tf.enable_eager_execution(); print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
 ```
 
 11. Clone deeptime repository into a directory of your choice
