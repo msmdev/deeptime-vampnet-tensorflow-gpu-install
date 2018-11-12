@@ -154,7 +154,7 @@ conda create -n vampnet python=3.6
 # press y a few times 
 ```   
 
-7. Activate env   
+7. Activate env (all following steps take place inside the vampnet environment)   
 ``` bash
 source activate vampnet  
 ```
@@ -188,12 +188,17 @@ python setup.py test
 python setup.py install
 ```
 
-13. If you want to run the alanine dipeptide example, you'll also need to install the mdshare package to the download of the alanine trajectory files:
+13. Install keras (high-level neural networks Python API) to run on top of tensorflow
+``` bash
+conda install keras
+```
+
+14. If you want to run the alanine dipeptide example, you'll also need to install the mdshare package to the download of the alanine trajectory files:
 ``` bash
 conda install mdshare -c conda-forge
 ```
 
-14. Since the examples are jupyter notebooks, so the jupyter package is needed to run them:
+15. Since the examples are jupyter notebooks, so the jupyter package is needed to run them:
 ``` bash
 conda install jupyter
 ```
