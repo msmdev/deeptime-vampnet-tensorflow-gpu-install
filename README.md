@@ -1,4 +1,4 @@
-# deeptime-vampnet-tensorflow-gpu-install
+# Install the deeptime/vampnet package on Ubuntu 16
 Install the deeptime package vampnet for deep learning of Markov state models (including nvidia drivers + tensorflow gpu install) on Ubuntu 16.
 The instructions are based on instructions of William Falcon for the installation of GPU-powered tensorflow.
 (https://github.com/williamFalcon/tensorflow-gpu-install-ubuntu-16.04)
